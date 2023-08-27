@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הדמקה של סופר ובנדה</title>
+    <link rel="stylesheet" href="checkers.css">
+</head>
+
+<body>
+    <div class="checkers-wrapper">
+        <div class="checkers-board" id="board">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="checkers.js"></script>
+    <script type="module" src="board.js"></script>
+    <script>
+        const container = document.getElementById('board');
+        const game = new CheckersGame(container);
+      </script>
+    
+</body>
+</html>
